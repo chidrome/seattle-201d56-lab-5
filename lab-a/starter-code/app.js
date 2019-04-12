@@ -76,7 +76,7 @@ function sumArray(array) { //eslint-disable-line
   for(let i = 0; i < array.length; i++){
     totalSum = sum(totalSum, array[i])[0];
   }
-  return [sum, `${testArray} was passed in as an array of numbers, and ${sum} is their sum.`];
+  return [totalSum, `${testArray} was passed in as an array of numbers, and ${totalSum} is their sum.`];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
