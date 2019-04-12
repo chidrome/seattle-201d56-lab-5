@@ -101,7 +101,7 @@ function multiplyArray(multArr) { //eslint-disable-line
   for(let i = 0; i < multArr.length; i++){
     product = multiply(product, multArr[i])[0];
   }
-  return [`The numbers ${multArr} have a product of ${product}`];
+  return [product, `The numbers ${multArr} have a product of ${product}.`];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
@@ -133,7 +133,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
   for(let i = 0; i < dynamicArray.length; i++){
     product = multiply(product, dynamicArray[i])[0]
   }
-  return [`The numbers ${dynamicArray} have a product of ${product}`];
+  return [product, `The numbers ${dynamicArray} have a product of ${product}.`];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
